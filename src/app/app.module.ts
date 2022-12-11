@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { UserloginComponent } from './userlogin/userlogin.component';
+import { UserRegComponent } from './user-reg/user-reg.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoutes:Routes =[
   {
@@ -26,7 +28,9 @@ const myRoutes:Routes =[
   declarations: [
     AppComponent,
     AdminloginComponent,
-    UserloginComponent
+    UserloginComponent,
+    UserRegComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

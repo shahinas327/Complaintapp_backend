@@ -7,7 +7,8 @@ import { ApiService } from '../api.service';
   styleUrls: ['./userlogin.component.css']
 })
 export class UserloginComponent {
-  constructor(private api:ApiService)
+  constructor(private api: ApiService)
+  {}
  username=""
  password=""
 
